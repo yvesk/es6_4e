@@ -1,0 +1,30 @@
+<html>
+<body>
+<style>
+  button{
+    font-size: 100px;
+  }
+
+  .on {
+    background: #ffc600;
+  }
+</style>
+<button id='pushy'>Push Me</button>
+ <script>
+
+const button = document.querySelector("#pushy");
+
+button.addEventListener('click',function () {
+  this.classList.toggle('on');
+});
+
+const person = {
+  points: 23,
+  score () {
+    this.points++;
+  }
+}
+ </script>
+
+</body>
+</html>
