@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<script>
+  const name = [ 'Yves', 'Kristina','Fabinne', 'Lara'];
+  const fullNames = name.map(function (name) {
+    return `${name} Kurz`;
+  });
+  console.log(fullNames);
+
+  const fullNames2 = name.map (name => `${name} Kurz`);
+  console.log(fullNames2);
+
+
+  const sayMayName = (name) => alert(`Hello ${name}`);
+  sayMayName('Yves');
+  sayMayName('Yves');
+</script>
+
+</body>
+</html>

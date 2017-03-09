@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<script>
+  const race = '100m Dash';
+  const winners  = [ 'Yves', 'Kristina','Fabinne', 'Lara'];
+
+  const win = winners.map((winner,i) => ({name: winner, race, place: i+1}));
+  console.table (win);
+
+  const ages = [ 23, 12, 22, 113, 22, 11, 33, 4,33];
+
+  const old = ages.filter(age => age >= 60);
+  console.log(old);
+</script>
+
+</body>
+</html>
